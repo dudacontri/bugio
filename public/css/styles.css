@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body{
+    background-color: white;
+}
+thead, tbody{
+    display: block;  
+}
+  
+tbody{
+    overflow-y: scroll;
+    height: 52vh;
+    }
+.table td
+{
+    width: 20%;
+    height:fit-content
+}
+.search-ficha
+{
+    display: flex;
+}
+.btn-search
+{
+    height: fit-content;
+    margin-top: 0.95vh;
+    margin-left: 1vw;
+    border: none;
+    width: 120px;
+    background-color: #F28345!important;
+    opacity: 0.7;
+
+}
+.registro
+{
+    background: #F28345!important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-box
+{
+    background-color: white;
+    width: 40vw;
+    height: 70vh;
+    margin-top: 15vh;
+    opacity: 0.96;
+    text-align: center;
+    border-radius: 2%;
+    justify-content: center;
+}
+.login
+{
+    background: #F28345!important;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box
+{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    justify-content: center;
+    opacity: 0.96;
+    text-align: center;
+    border-radius: 2%;
+}
+.form-login
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 28vw;
+    height: 5vh;
+}
+.redef-box {
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    justify-content: center;
+    opacity: 0.96;
+    text-align: center;
+    font-size: medium;
+    font-family:'Economica', sans-serif;
+    justify-content: first baseline;
+}
+.button-top
+{
+    background-color: gray;
+    color: white;
+    align-self: center;
+    width: 100px;
+    font-size: medium;
+    
+}
+.button-imprimir
+{
+    width: 160px;
+    font-size: smaller;
+    align-self: center;
+    float:right;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    background-color: #F28345;
+    border: #F28345;
+
+}
+.button-imprimir:hover
+{
+    background-color: #F28345;
+}
+.button-imprimir:checked
+{
+    background-color: #F28345;
+}
+.button-imprimir:active
+{
+    color: #F28345;
+}
+.button-imprimir:focus
+{
+    background-color: #F28345;
+}
+.button-reg
+{
+    background-color: #F28345;
+    color: white;
+    width: 100px;
+    font-size: medium;
+    border:#F28345;
+}
+.button-reg:hover
+{
+    border:#F28345;
+    background-color:#F28345;
+
+}
+.button-reg:not(:disabled):not(.disabled):active
+{
+    border:#F28345;
+    background-color:#F28345;
+}
+.button-redef
+{
+    background-color: #F28345;
+    color: white;
+    font-family:'Economica', sans-serif;
+    width: 5vw;
+    font-size: xx-large;
+    margin: auto;
+}
+.navbar
+{
+    background-color: #F28345;
+    height: 10vh;
+}
+a
+{
+    color: #F28345;
+    margin: auto;
+}
+.bugio
+{
+    color: #F28345;
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+    height: 10vh;
+    font-size: 5vw;
+}
+.bugio-white
+{
+    color: #ffffff;
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 3%;
+}
+.forgot
+{
+    color: #F28345;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+ion-icon
+{
+    color: white;
+    font-size: 3vw;
+}
+
+.main
+{
+background-color: rgb(255, 255, 255);
+width: 78vw;
+}
+aside{
+   background-color: white;
+   width: 18vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.home
+{
+   width: 96vw;
+   height:80vh;
+   margin: 2%;
+}
+.label-name
+{
+   background-color: #F3F1F1;
+   color:#F28345;
+   height:fit-content;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin-top: 10px;
+    width: 200px;
+    font-size:medium;
+  
+}
+.button-ficha
+{
+   background-color: #F28345;
+   color: white;
+   opacity: 0.85;
+   height: 15vh;
+   width: 15vw;
+}
+.button-relatorio
+{
+   background-color: #F28345;
+   opacity: 0.75;
+   color: white;
+   height: 15vh;
+   width: 15vw;
+}
+.button-perfil
+{
+   background-color: #F28345;
+   opacity: 0.65;
+   color: white;
+   height: 15vh;
+   width: 15vw;
+}
+.form-ficha
+{
+    width: 10vw;
+}
+.title-ficha
+{
+    color: #F28345;
+    font-family: 'Economica', sans-serif;
+    font-size: 3vw;
+}
+.text-ficha
+{
+    color: white;
+    background-color: #F28345;
+    opacity: 0.85;
+    font-family: 'Economica', sans-serif;
+    width: fit-content;
+    height: fit-content;
+}
+.hidden
+{
+    display: none;
+}
+.bugio-h1
+{
+    margin-left: 2%; 
+    font-family: 'Lilita One', cursive;
+     color: #F28345; 
+     width: 57vw;
+}
+.ficha-names
+{
+    font-weight: bold;
+    color: #F28345; 
+    margin-right: 0.5vw;
+    font-size: small;
+
+}
+.ficha-expo
+{
+    background-color: #f2f2f2;
+    width: 75.5vw;
+    border-radius:10px; 
+    padding: 1vh;
+}
+.tratamento
+{
+    width: 60vw;
+}
+
